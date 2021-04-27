@@ -47,15 +47,28 @@ background-image: url("");
 
 }
 
-header.primary h1{
-  color:#50226D;
-  font-size: 3.5em;
-  margin:20px 0;
-}
-/* putting a image as the header using css*/
+
 header.primary h1 a{
-  color:#fff;
+  display:block;
+  width:60vw;
+  margin:0 auto;
+  color:#ffffff;
   text-decoration:none;
+  background:url("https://assets/img/masthead.png");/*What is th ecorrect URL and where do we find it? */
+  
+  /* Path to img directory from Stylesheet 
+  
+  background:url("../img/masthead.png");
+  
+  */
+  
+  /* Image Replacement */
+  text-indent:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 
 header.primary h2{
